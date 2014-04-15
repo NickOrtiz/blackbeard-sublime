@@ -7,6 +7,12 @@ greybeard is a fork of [brogrammer](https://github.com/kenwheeler/brogrammer-the
 
 ## install
 
+### automated
+
+search `greybeard theme` in [sublime package control](https://sublime.wbond.net/)
+
+### manual
+
 1. [download the .zip](https://github.com/xero/greybeard-sublime/archive/master.zip)
 2. unzip to `theme-greybeard` **not greybeard-sublime!** folder in the `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in sublime text.
 
