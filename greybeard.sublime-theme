@@ -47,7 +47,7 @@
         "layer0.tint": [39,40,34],
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 0.7,
-        "layer1.texture": "theme-greybeard/greybeard/tab-bar@2x.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-bar@2x.png",
         "layer1.opacity": 1
     },
     // Tab close state
@@ -70,7 +70,7 @@
         "layer0.texture": "",
         "layer0.tint": [39,40,34],
         "layer0.opacity": 1,
-        "layer1.texture": "theme-greybeard/greybeard/tab-bar-active@2x.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-bar-active@2x.png",
         "layer1.opacity": 1
     },
     // Tab dirty state (close button hidden)
@@ -87,7 +87,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "theme-greybeard/greybeard/close@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/close@2x.png",
         "layer0.opacity": 0,
         "layer0.tint": [170,170,170]
     },
@@ -112,7 +112,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "theme-greybeard/greybeard/circle@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/circle@2x.png",
         "layer0.tint": [106,140,140],
         "layer0.opacity": 1
     },
@@ -126,7 +126,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "theme-greybeard/greybeard/close.png",
+        "layer0.texture": "greybeard theme/greybeard/close.png",
         "layer0.opacity": 1,
         "layer0.tint": [106,140,140]
     },
@@ -200,7 +200,7 @@
         "layer0.opacity": 1.0,
         "layer0.tint": [25,25,25],
         "layer0.inner_margin": 0,
-        "layer1.texture": "theme-greybeard/greybeard/tab-scroll-dropdown.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-scroll-dropdown.png",
         "layer1.inner_margin": [5,0,-5,0],
         "layer1.tint": [255,255,255],
         "layer1.opacity": 1.0
@@ -208,7 +208,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer1.texture": "theme-greybeard/greybeard/tab-scroll-dropdown.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-scroll-dropdown.png",
         "layer1.inner_margin": [5,0,-5,0],
         "layer1.tint": [106,140,140],
         "layer1.opacity": 1.0
@@ -221,7 +221,7 @@
         "layer0.tint": [25,25,25],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "theme-greybeard/greybeard/tab-scroll-left.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-scroll-left.png",
         "layer1.inner_margin": [0,0,0,0],
         "layer1.tint": [255,255,255],
         "layer1.opacity": 1.0
@@ -229,7 +229,7 @@
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer1.texture": "theme-greybeard/greybeard/tab-scroll-left.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-scroll-left.png",
         "layer1.tint": [106,140,140],
         "layer1.opacity": 1.0
     },
@@ -241,7 +241,7 @@
         "layer0.tint": [25,25,25],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "theme-greybeard/greybeard/tab-scroll-right.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-scroll-right.png",
         "layer1.inner_margin": [0,0,0,0],
         "layer1.tint": [255,255,255],
         "layer1.opacity": 1.0
@@ -249,7 +249,7 @@
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer1.texture": "theme-greybeard/greybeard/tab-scroll-right.png",
+        "layer1.texture": "greybeard theme/greybeard/tab-scroll-right.png",
         "layer1.tint": [106,140,140],
         "layer1.opacity": 1.0
     },
@@ -260,7 +260,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "theme-greybeard/greybeard/folder-open.png",
+        "layer0.texture": "greybeard theme/greybeard/folder-open.png",
         "layer0.opacity": 0.25,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
@@ -273,7 +273,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "theme-greybeard/greybeard/folder-closed.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-closed.png"
     },
     {
         "class": "fold_button_control",
@@ -610,7 +610,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "theme-greybeard/greybeard/circle@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/circle@2x.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [106,140,140],
@@ -626,7 +626,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "theme-greybeard/greybeard/circle@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/circle@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [106,140,140]
     },
@@ -634,13 +634,13 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "theme-greybeard/greybeard/close@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/close@2x.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "theme-greybeard/greybeard/close@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [106,140,140]
     },
@@ -648,12 +648,12 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "theme-greybeard/greybeard/close@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/close@2x.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture": "theme-greybeard/greybeard/close@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/close@2x.png",
         "layer0.opacity": 1
     },
 
@@ -665,7 +665,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [9,9],
-        "layer0.texture": "theme-greybeard/greybeard/folder-closed@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/folder-closed@2x.png",
         "layer0.tint": [170,170,170],
         "layer0.opacity": 1,
         "layer0.inner_margin": [2,2]
@@ -693,7 +693,7 @@
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "theme-greybeard/greybeard/folder-closed@2x.png",
+        "layer0.texture": "greybeard theme/greybeard/folder-closed@2x.png",
         "layer0.tint": [170,170,170],
         "layer0.opacity": 1
     },
@@ -701,40 +701,40 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "theme-greybeard/greybeard/folder-open@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "theme-greybeard/greybeard/folder-open@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "theme-greybeard/greybeard/folder-open@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-open@2x.png"
     },
     // Sidebar folder open
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
-        "layer0.texture": "theme-greybeard/greybeard/folder-open@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "theme-greybeard/greybeard/folder-open@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "theme-greybeard/greybeard/folder-open@2x.png"
+        "layer0.texture": "greybeard theme/greybeard/folder-open@2x.png"
     },
 
 //
@@ -970,7 +970,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "theme-greybeard/greybeard/regex.png",
+        "layer0.texture": "greybeard theme/greybeard/regex.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -988,7 +988,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "theme-greybeard/greybeard/casesens.png",
+        "layer0.texture": "greybeard theme/greybeard/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1006,7 +1006,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "theme-greybeard/greybeard/wholeword.png",
+        "layer0.texture": "greybeard theme/greybeard/wholeword.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1029,7 +1029,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "theme-greybeard/greybeard/context.png",
+        "layer0.texture": "greybeard theme/greybeard/context.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1047,7 +1047,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "theme-greybeard/greybeard/buffer.png",
+        "layer0.texture": "greybeard theme/greybeard/buffer.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1069,7 +1069,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "theme-greybeard/greybeard/reverse.png",
+        "layer0.texture": "greybeard theme/greybeard/reverse.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1087,7 +1087,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "theme-greybeard/greybeard/wrap.png",
+        "layer0.texture": "greybeard theme/greybeard/wrap.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1105,7 +1105,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "theme-greybeard/greybeard/selection.png",
+        "layer0.texture": "greybeard theme/greybeard/selection.png",
         "layer0.tint": [79,91,103],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1128,7 +1128,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "theme-greybeard/greybeard/casesens.png",
+        "layer0.texture": "greybeard theme/greybeard/casesens.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1151,7 +1151,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "theme-greybeard/greybeard/highlight.png",
+        "layer0.texture": "greybeard theme/greybeard/highlight.png",
         "layer0.tint": [170, 170, 170],
         "layer0.opacity": 1,
         "content_margin": 8

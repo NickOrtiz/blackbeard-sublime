@@ -9,18 +9,21 @@ greybeard is a fork of [brogrammer](https://github.com/kenwheeler/brogrammer-the
 
 ### automated
 
-search `greybeard theme` in [sublime package control](https://sublime.wbond.net/)
+use [sublime package control](https://sublime.wbond.net/)
+
+- select `Install Package` from the command palette (`Ctrl+Shift+P` on windows/linux or `⇧⌘P` on osx)
+- search for `greybeard theme` and click enter.
 
 ### manual
 
 1. [download the .zip](https://github.com/xero/greybeard-sublime/archive/master.zip)
-2. unzip to `theme-greybeard` **not greybeard-sublime!** folder in the `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in sublime text.
+2. unzip to `greybeard theme` **not greybeard-sublime!** folder in the `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in sublime text.
 
 ## setup
 
-activate the ui theme, set the monokai color scheme, and gohu font by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in sublime text.
+activate the ui theme, set the monokai color scheme (or search for [monokai extended](https://github.com/jonschlinkert/sublime-monokai-extended) in package control), and download and install the [gohu font](http://font.gohu.org/) and modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in sublime text.
 
-### user settings
+### user settings example
 ```
 {
  "theme": "greybeard.sublime-theme", 
