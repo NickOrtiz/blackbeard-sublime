@@ -1,7 +1,6 @@
 # Blackbeard
 
-![Blackbeard sublime screenshot](https://raw.githubusercontent.com/xero/blackbeard-sublime/master/preview1.png)
-![Blackbeard sublime screenshot](https://raw.githubusercontent.com/xero/blackbeard-sublime/master/preview2.png)
+![Blackbeard sublime screenshot](https://raw.githubusercontent.com/NickOrtiz/blackbeard-sublime/master/preview1.png)
 
 Blackbeard is a fork of [greybeard](https://github.com/xero/greybeard-sublime) which is a fork of [brogrammer](https://github.com/kenwheeler/brogrammer-theme/) a dark, flat, sexy theme. greybeard changes the main theme color from red to blue grey. reveals the scrollbars. features [gohuFont](http://font.gohu.org) throughout the ui. and is designed for the Cyanide Acid theme.
 
